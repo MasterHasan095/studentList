@@ -13,10 +13,18 @@ public class May25 {
     /**
      * @param args the command line arguments
      */
+    
+    private String name;
+    private String studentID;
+    private String address;
+    
+    public May25(String givenName){
+        this.name = givenName;
+    }
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.println("HI homies, how you doin");
+        
     }
     
 }
